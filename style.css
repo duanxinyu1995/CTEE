@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin:0 auto;
+	width: 1200px;
+}
+li{
+	list-style-type: none;
+}
+ul{
+	padding: center center;
+}
+.logo{
+	width: 1200px;
+	height: 200px;
+	background-image: url("titlepng.png");
+	background-repeat: no-repeat;
+}
+.nav{
+	width: 1200px;
+	height: 40px;
+	background-color: deepskyblue;
+	border-radius: 5px;
+
+}
+#nav1{
+	w55
+}
+a:hover{
+		color:antiquewhite;
+	}
+a{
+	text-decoration: none;
+	color:black;
+}
+.nav a{
+	float: left;
+	font-size: 20px;
+	text-align: center;
+/*	padding: 0px 0px 10px 55px;*/
+
+}
+.nav li{
+	float:left;
+	width: 95px;
+	line-height: 40px;
+	padding: 0px 0px 0px 55px;
+
+}
+.introduction{
+	width: 1200px;
+	height: 210px;
+	background-color: darkseagreen;
+	border-radius: 5px;
+
+}
+.pic_lab{
+	width: 800px;
+	height: 200px;
+	float: left;
+}
+.introduce{
+	float:right;
+	width: 400px;
+	height: 210px;
+}
+.introduction p{
+	text-indent: 2em;
+
+}
+.news{
+	width: 1200px;
+	height: 290px;
+	background: gray;
+	
+}
+.news li{
+	text-indent: 2em;
+}
+.gonggao{
+	width: 450px;
+	height: 290px;
+/*	margin: 20px 20px;*/
+	float:left;
+	background: #02F902;
+}
+.news p{
+	font-size: 20px;
+	font-weight: bold;
+	text-indent: 1em;
+	
+}
+.hotnews{
+	width: 450px;
+	height: 290px;
+/*	margin: 20px 50px 20px 50px;*/
+	float:left;
+	background: #F3CC0A;
+}
+.links{
+	width: 300px;
+	height: 290px;
+	background: #08B6ED;
+	float: left;
+}
+.foot{
+	width: 1200px;
+	height: 100px;
+	background: #D9D39B;
+}
+.foot p{
+	text-align: center;
+	font-size: 16px;
+}
+/*副页样式*/
+.fuye{
+	width: 1200px;
+	height: 2000px;
+	background: #F1B790;
+}
+.left{
+	width: 300px;
+	height: 600px;
+	background: #F99D9F;
+	float: left;
+}
+.right{
+	float:right;
+	width: 900px;
+	height: 2000px;
+	background: #ACF3B0;
+}
+.sectitle{
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-indent: 1em;
+}
+.fuye ul{
+	width: 200px;
+	height: 400px;
+	margin:15px auto;
+}
+.fuye li{
+	line-height: 50px;
+	font-size: 20px;
+}
+.postion{
+	width: 900px;
+	height: 50px;
+	font-size: 16px;
+	text-indent: 2em;
+	line-height: 50px;
+}
+.content{
+	width: 700px;
+	height: 1800px;
+	margin:auto;
+	background: #EAB7EC;
+}
+.content_title{
+	width: 700px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.content_time{
+	width: 700px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+.text{
+	text-indent: 2em;
+	line-height: 30px;
+	font-size: 16px;
+}
