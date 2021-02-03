@@ -78,15 +78,27 @@ a{
 	background: gray;
 	
 }
+/*
 .news li{
-	text-indent: 2em;
+	text-indent: 1em;
 }
+*/
 .gonggao{
 	width: 450px;
 	height: 290px;
 /*	margin: 20px 20px;*/
 	float:left;
 	background: #02F902;
+}
+.gonggao ul{
+	width: 350px;
+	height: 220px;
+	margin:auto;
+}
+.hotnews ul{
+	width: 350px;
+	height: 220px;
+	margin:auto;
 }
 .news p{
 	font-size: 20px;
@@ -106,6 +118,15 @@ a{
 	height: 290px;
 	background: #08B6ED;
 	float: left;
+}
+.links ul{
+	width: 250px;
+	height: 250px;
+	margin:auto;
+	
+}
+.links li{
+	line-height: 50px;
 }
 .foot{
 	width: 1200px;
