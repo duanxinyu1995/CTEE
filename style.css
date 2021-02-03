@@ -7,6 +7,7 @@
 .container{
 	margin:0 auto;
 	width: 1200px;
+	background:#B1E0FA url("bg-body.jpg") repeat-y scroll center top;
 }
 li{
 	list-style-type: none;
@@ -23,8 +24,9 @@ ul{
 .nav{
 	width: 1200px;
 	height: 40px;
-	background-color: deepskyblue;
+	background: url("bg-mainnav.png") repeat-x scroll left top transparent;
 	border-radius: 5px;
+	
 
 }
 #nav1{
@@ -41,15 +43,24 @@ a{
 	float: left;
 	font-size: 20px;
 	text-align: center;
+	color:white;
 /*	padding: 0px 0px 10px 55px;*/
 
 }
 .nav li{
 	float:left;
-	width: 95px;
+	display: block;
+	width: 115px;
 	line-height: 40px;
-	padding: 0px 0px 0px 55px;
+	padding: 0px 8px;
+	cursor:pointer;
+	text-indent: 1em;
 
+}
+.nav ul{
+	width: 1150px;
+	height: 40px;
+	margin:auto 25px;
 }
 .introduction{
 	width: 1200px;
@@ -88,7 +99,7 @@ a{
 	height: 290px;
 /*	margin: 20px 20px;*/
 	float:left;
-	background: #02F902;
+	background: url("bg-content-top.png") repeat scroll center:3px;
 }
 .gonggao ul{
 	width: 350px;
@@ -131,12 +142,24 @@ a{
 .foot{
 	width: 1200px;
 	height: 100px;
-	background: #D9D39B;
+	color:#205958;
+	font-size: 13px;
+	letter-spacing:2px;
 }
+.foot_pic{
+	width: 450px;
+	height: 100px;
+	float:left;
+}
+.foot_content{
+	float: left;
+}
+/*
 .foot p{
 	text-align: center;
 	font-size: 16px;
 }
+*/
 /*副页样式*/
 .fuye{
 	width: 1200px;
