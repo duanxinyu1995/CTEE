@@ -65,7 +65,7 @@ a{
 .introduction{
 	width: 1200px;
 	height: 210px;
-	background-color: darkseagreen;
+/*	background-color: darkseagreen;*/
 	border-radius: 5px;
 
 }
@@ -86,7 +86,7 @@ a{
 .news{
 	width: 1200px;
 	height: 290px;
-	background: gray;
+	margin-top:10px;
 	
 }
 /*
@@ -95,49 +95,54 @@ a{
 }
 */
 .gonggao{
-	width: 450px;
+	width: 500px;
 	height: 290px;
 /*	margin: 20px 20px;*/
 	float:left;
-	background: url("bg-content-top.png") repeat scroll center:3px;
+	background: url("bg-content-top.png") repeat ;
 }
 .gonggao ul{
-	width: 350px;
+	width: 460px;
 	height: 220px;
 	margin:auto;
 }
 .hotnews ul{
-	width: 350px;
+	width: 460px;
 	height: 220px;
 	margin:auto;
 }
 .news p{
-	font-size: 20px;
-	font-weight: bold;
-	text-indent: 1em;
+	font-size: 22px;
+
+	text-indent: 5px;
+	line-height: 50px;
+	
+	
 	
 }
 .hotnews{
-	width: 450px;
+	width: 500px;
 	height: 290px;
 /*	margin: 20px 50px 20px 50px;*/
 	float:left;
-	background: #F3CC0A;
+	background: url("bg-content-top.png") repeat ;
+	margin:0px 25px;
 }
 .links{
-	width: 300px;
+	width: 150px;
 	height: 290px;
-	background: #08B6ED;
+	background: url("bg-content-top.png") repeat ;
 	float: left;
 }
 .links ul{
-	width: 250px;
+	width: 150px;
 	height: 250px;
 	margin:auto;
 	
 }
 .links li{
-	line-height: 50px;
+	line-height: 20px;
+	font-size: 12px;
 }
 .foot{
 	width: 1200px;
