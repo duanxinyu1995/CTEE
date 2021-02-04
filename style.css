@@ -110,10 +110,16 @@ a{
 	height: 200px;
 	margin:auto;
 }
+.gonggao li{
+	line-height: 25px;
+}
 .hotnews ul{
 	width: 480px;
 	height: 200px;
 	margin:auto;
+}
+.hotnews li{
+	line-height: 25px;
 }
 .news p{
 	font-size: 22px;
@@ -137,14 +143,14 @@ a{
 	float: left;
 }
 .links ul{
-	width: 150px;
-	height: 250px;
+	width: 120px;
+	height: 150px;
 	margin:auto;
 	
 }
 .links li{
-	line-height: 20px;
-	font-size: 12px;
+	line-height: 25px;
+	font-size: 13px;
 }
 .foot{
 	width: 1200px;
