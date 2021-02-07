@@ -100,10 +100,11 @@ a{
 */
 .gonggao{
 	width: 500px;
-	height: 290px;
+	height: 280px;
 /*	margin: 20px 20px;*/
 	float:left;
 	background: url("bg-content-top.png") repeat ;
+	border-radius: 5px;
 }
 .gonggao ul{
 	width: 480px;
@@ -130,17 +131,19 @@ a{
 }
 .hotnews{
 	width: 500px;
-	height: 290px;
+	height: 280px;
 /*	margin: 20px 50px 20px 50px;*/
 	float:left;
 	background: url("bg-content-top.png") repeat ;
 	margin:0px 25px;
+	border-radius: 5px;
 }
 .links{
 	width: 150px;
-	height: 290px;
+	height: 280px;
 	background: url("bg-content-top.png") repeat ;
 	float: left;
+	border-radius: 5px;
 }
 .links ul{
 	width: 120px;
@@ -158,6 +161,7 @@ a{
 	color:#205958;
 	font-size: 13px;
 	letter-spacing:2px;
+	background: url("bg-block-480.png");
 }
 .foot_pic{
 	width: 450px;
@@ -176,20 +180,21 @@ a{
 /*副页样式*/
 .fuye{
 	width: 1200px;
-	height: 2000px;
-	background: #F1B790;
+	height: 1500px;
+/*	background: #F1B790;*/
 }
 .left{
 	width: 300px;
 	height: 600px;
-	background: #F99D9F;
+	background:url("fy-left-top.png") repeat-x scroll center top;
 	float: left;
+	margin:10px 0px;
 }
 .right{
 	float:right;
 	width: 900px;
-	height: 2000px;
-	background: #ACF3B0;
+	height: 1400px;
+/*	background: #ACF3B0;*/
 }
 .sectitle{
 	width: 300px;
@@ -198,6 +203,7 @@ a{
 	font-size: 20px;
 	font-weight: bold;
 	text-indent: 1em;
+	
 }
 .fuye ul{
 	width: 200px;
@@ -209,17 +215,19 @@ a{
 	font-size: 20px;
 }
 .postion{
-	width: 900px;
+	width: 880px;
 	height: 50px;
 	font-size: 16px;
 	text-indent: 2em;
 	line-height: 50px;
+	margin:10px 10px;
+	background: url("position.png") repeat-x scroll center;
 }
 .content{
-	width: 700px;
-	height: 1800px;
+	width: 880px;
+	height: 1300px;
 	margin:auto;
-	background: #EAB7EC;
+	background: url("bg-content.png") repeat;
 }
 .content_title{
 	width: 700px;
