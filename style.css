@@ -17,8 +17,8 @@ ul{
 }
 .logo{
 	width: 1200px;
-	height: 200px;
-	background-image: url("titlepng.png");
+	height: 150px;
+	background-image: url("logo.png");
 	background-repeat: no-repeat;
 }
 .nav{
@@ -33,7 +33,7 @@ ul{
 	w55
 }
 a:hover{
-		color:antiquewhite;
+		color:blue;
 	}
 a{
 	text-decoration: none;
@@ -180,12 +180,12 @@ a{
 /*副页样式*/
 .fuye{
 	width: 1200px;
-	height: 1500px;
+	height: 1000px;
 /*	background: #F1B790;*/
 }
 .left{
 	width: 300px;
-	height: 600px;
+	height: 900px;
 	background:url("fy-left-top.png") repeat-x scroll center top;
 	float: left;
 	margin:10px 0px;
@@ -193,7 +193,7 @@ a{
 .right{
 	float:right;
 	width: 900px;
-	height: 1400px;
+	height: 900px;
 /*	background: #ACF3B0;*/
 }
 .sectitle{
@@ -225,7 +225,7 @@ a{
 }
 .content{
 	width: 880px;
-	height: 1300px;
+	height: 800px;
 	margin:auto;
 	background: url("bg-content.png") repeat;
 }
