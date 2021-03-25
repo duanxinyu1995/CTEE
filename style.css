@@ -4,6 +4,7 @@
 	margin: 0px;
 	padding: 0px;
 }
+body {background:#B1E0FA url("bg-body.jpg") repeat-y scroll center top;} 
 .container{
 	margin:0 auto;
 	width: 1200px;
@@ -17,7 +18,7 @@ ul{
 }
 .logo{
 	width: 1200px;
-	height: 150px;
+	height: 100px;
 	background-image: url("logo.png");
 	background-repeat: no-repeat;
 }
@@ -56,6 +57,9 @@ a{
 	cursor:pointer;
 	text-indent: 1em;
 
+}
+.nav li:hover{
+	background-color: slategray;
 }
 .nav ul{
 	width: 1150px;
@@ -157,7 +161,7 @@ a{
 }
 .foot{
 	width: 1200px;
-	height: 100px;
+	height: 80px;
 	color:#205958;
 	font-size: 13px;
 	letter-spacing:2px;
@@ -165,7 +169,7 @@ a{
 }
 .foot_pic{
 	width: 450px;
-	height: 100px;
+	height: 80px;
 	float:left;
 }
 .foot_content{
