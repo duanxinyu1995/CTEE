@@ -74,9 +74,49 @@ a{
 
 }
 .pic_lab{
-	width: 800px;
-	height: 200px;
+	position: relative;
+	width: 790px;
+	height: 210px;
 	float: left;
+}
+.prev{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 20px;
+	height: 30px;
+	line-height: 30px;
+/*	background-color: rgba(0, 0, 0, .3);*/
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.next{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 20px;
+	height: 30px;
+	line-height: 30px;
+/*	background-color: rgba(0, 0, 0, .3) ;*/
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.dot{
+	position: absolute;
+	bottom: 5px;
+	left:50%;
+	margin-left: -35px;
+	width: 70px;
+	height: 15px;
+/*	background: rgba(184,201,221,.6);*/
+}
+.dot li{
+	float: left;
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin:3.5px 2.5px;
 }
 .introduce{
 	float: right;
@@ -91,7 +131,7 @@ a{
 .news{
 	width: 1200px;
 	height: 290px;
-	margin-top:10px;
+	margin-top:5px;
 	
 }
 .more{
@@ -118,6 +158,15 @@ a{
 }
 .gonggao li{
 	line-height: 25px;
+}
+.gonggao1 a{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	width: 395px;
+	float: left;
+	
 }
 .hotnews ul{
 	width: 480px;
